@@ -169,3 +169,7 @@ DISABLE_DEXPREOPT_CHECK := true
 
 PRODUCT_PACKAGES += \
     com.google.android.permission
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/mica/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
