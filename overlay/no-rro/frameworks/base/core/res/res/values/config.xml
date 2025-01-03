@@ -35,4 +35,7 @@
 
      <!-- Whether vibrate icon is shown in the status bar by default. -->
     <integer name="def_statusBarVibrateIconEnabled">1</integer>
+
+    <!-- Circle to search -->
+    <string name="config_defaultContextualSearchPackageName" translatable="false">com.google.android.googlequicksearchbox</string>
 </resources>
