@@ -120,6 +120,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \
+    NfcOverlay \
     SettingsMica
 
 include vendor/mica/config/version.mk
