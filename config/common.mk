@@ -81,6 +81,10 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
 
+# SetupWizard theme
+PRODUCT_PRODUCT_PROPERTIES += \
+    setupwizard.theme=glif_expressive
+
 # SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
