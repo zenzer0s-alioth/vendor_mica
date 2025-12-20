@@ -32,4 +32,7 @@
          double tap gestures in non-action areas in the lock screen and launcher workspace to go to
          sleep. -->
     <bool name="config_supportDoubleTapSleep">true</bool>
+
+     <!-- Whether vibrate icon is shown in the status bar by default. -->
+    <integer name="def_statusBarVibrateIconEnabled">1</integer>
 </resources>
