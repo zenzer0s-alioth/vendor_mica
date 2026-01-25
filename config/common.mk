@@ -141,10 +141,6 @@ endif
 -include vendor/mica-priv/keys/keys.mk
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 
-ifneq ($(PRODUCT_NO_CAMERA),true)
-PRODUCT_PACKAGES += \
-    Aperture
-endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
